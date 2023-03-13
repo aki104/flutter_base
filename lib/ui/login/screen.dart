@@ -4,8 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../widget/validation_form/validation_form.dart';
 import 'notifier.dart';
 
-class LoginPage extends ConsumerWidget {
-  const LoginPage({Key? key}) : super(key: key);
+class LoginScreen extends ConsumerWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -56,5 +56,3 @@ class LoginPage extends ConsumerWidget {
     );
   }
 }
-
-
